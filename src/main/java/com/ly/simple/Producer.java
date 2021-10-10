@@ -11,7 +11,7 @@ public class Producer {
     public static void main(String[] args) throws Exception {
         //创建连接工厂,并设置连接信息
         ConnectionFactory f = new ConnectionFactory();
-        f.setHost("192.168.180.161");
+        f.setHost("192.168.102.205");
         f.setPort(5672);//可选,5672是默认端口
         f.setUsername("guest");
         f.setPassword("guest");

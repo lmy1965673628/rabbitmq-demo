@@ -8,7 +8,7 @@ public class Consumer {
     public static void main(String[] args) throws Exception {
         //连接工厂
         ConnectionFactory f = new ConnectionFactory();
-        f.setHost("192.168.180.161");
+        f.setHost("192.168.102.205");
         f.setUsername("guest");
         f.setPassword("guest");
         //建立连接

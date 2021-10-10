@@ -13,7 +13,7 @@ public class Producer {
         String[] a = {"warning", "info", "error"};
 
         ConnectionFactory f = new ConnectionFactory();
-        f.setHost("192.168.180.161");
+        f.setHost("192.168.102.205");
         f.setPort(5672);
         f.setUsername("guest");
         f.setPassword("guest");
